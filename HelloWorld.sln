@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld.csproj", "{AA37E6F8-2050-49A3-905F-449748C79412}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldTestProject", "HelloWorldTestProject\HelloWorldTestProject.csproj", "{0A3F5F9B-8E14-4EA7-9FF2-A82F40FF23A8}"
@@ -13,9 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = HelloWorld.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -40,6 +39,7 @@ Global
 		{0A3F5F9B-8E14-4EA7-9FF2-A82F40FF23A8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{0A3F5F9B-8E14-4EA7-9FF2-A82F40FF23A8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{0A3F5F9B-8E14-4EA7-9FF2-A82F40FF23A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0A3F5F9B-8E14-4EA7-9FF2-A82F40FF23A8}.Debug|x86.Build.0 = Debug|Any CPU
 		{0A3F5F9B-8E14-4EA7-9FF2-A82F40FF23A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A3F5F9B-8E14-4EA7-9FF2-A82F40FF23A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0A3F5F9B-8E14-4EA7-9FF2-A82F40FF23A8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
@@ -48,5 +48,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HelloWorld.vsmdi
 	EndGlobalSection
 EndGlobal
