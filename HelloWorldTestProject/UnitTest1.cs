@@ -12,7 +12,7 @@ namespace HelloWorldTestProject {
         [TestMethod]
         public void HelloWorldTestMethod( ) {
             HelloWorldForm helloWorldForm = new HelloWorldForm( );
-            Assert.AreEqual( "Hello World", helloWorldForm.label1.Text );
+            Assert.AreEqual( "Hello World!", helloWorldForm.label1.Text );
         }
     }
 }
