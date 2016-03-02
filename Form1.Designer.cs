@@ -1,5 +1,5 @@
 ﻿namespace HelloWorld {
-    partial class Form1 {
+    partial class HelloWorldForm {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -54,9 +54,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(48, 144);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 13);
+            this.label2.Size = new System.Drawing.Size(57, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Version 9";
+            this.label2.Text = "Version 10";
             // 
             // buttonCancel
             // 
@@ -69,7 +69,7 @@
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
-            // Form1
+            // HelloWorldForm
             // 
             this.AcceptButton = this.buttonOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -80,7 +80,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonOK);
-            this.Name = "Form1";
+            this.Name = "HelloWorldForm";
             this.Text = "HelloWorld";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -90,9 +90,9 @@
         #endregion
 
         private System.Windows.Forms.Button buttonOK;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonCancel;
+        public System.Windows.Forms.Label label1;
     }
 }
 
