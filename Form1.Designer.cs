@@ -56,7 +56,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Version 11";
+            this.label2.Text = "Version 12";
             // 
             // buttonCancel
             // 
