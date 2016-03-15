@@ -12,6 +12,7 @@ namespace HelloWorld {
         // Changed in new-branch-1
         // Change no.2 in new-branch-1
         // Change no.3 in new-branch-1
+        // Change no.4 in new-branch-1
         public HelloWorldForm( ) {
             InitializeComponent( );
         }
