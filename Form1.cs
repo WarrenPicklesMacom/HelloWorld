@@ -9,6 +9,7 @@ using System.Windows.Forms;
 
 namespace HelloWorld {
     public partial class HelloWorldForm : Form {
+        // Changed in new-branch-1
         public HelloWorldForm( ) {
             InitializeComponent( );
         }
