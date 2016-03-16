@@ -19,6 +19,7 @@ namespace HelloWorld {
 
         private void buttonOK_Click( object sender, EventArgs e ) {
             // Change no.5 in new-branch-1
+            // Change no.6 in new-branch-1
             this.DialogResult = DialogResult.OK;
             this.Close( );
         }
